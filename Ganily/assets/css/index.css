@@ -21,6 +21,7 @@ header {
 .navigation__links {
   display: flex;
   gap: 1rem;
+  padding: 0;
 }
 
 .navigation__links li a {

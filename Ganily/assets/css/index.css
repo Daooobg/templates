@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
+
+header {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navigation__logo {
+    width: 14rem;
+}
+
+.navigation__links {
+    display: flex;
+    gap: 1rem;
+}
+
+.navigation__links li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    color: rgb(205, 125, 141);
+}

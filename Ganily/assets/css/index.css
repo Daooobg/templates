@@ -71,6 +71,24 @@ header {
     margin-bottom: 2rem;
 }
 
+.allergen-free {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.allergen-free ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 2rem;
+}
+
+.allergen-free ul li {
+    padding: 1rem;
+    border: 0.5rem solid rgb(205, 125, 141);
+    border-radius: 50%;
+}
+
 @media (min-width: 400px) {
   .handcraft-section > div {
     display: grid;
@@ -80,4 +98,10 @@ header {
   .handcraft-section p {
     margin-bottom: 0;
   }
+}
+
+@media (min-width: 670px) {
+    .allergen-free ul {
+        justify-content: space-between;
+    }
 }

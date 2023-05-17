@@ -45,30 +45,35 @@ header {
   height: 70vh;
 }
 
-.handcraft-section {
+.about-products-section {
   background-color: rgb(238, 242, 243);
-  display: grid;
-  grid-template-columns: 1fr;
 }
 
-.handcraft-section > div {
+.about-products-section > div {
   width: 90%;
-  margin: 2rem auto;
+  margin: 0 auto;
+  padding: 4rem 0;
   font-family: Roboto Slab, serif;
 }
 
-.handcraft-section h2 {
-  font-size: 2rem;
+.about-products-section img {
+    float: right;
+    width: 30%;
+    margin: 1rem;
+}
+
+.about-products-section h2 {
+  font-size: 4rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
   padding-bottom: 2rem;
 }
 
-.handcraft-section p {
-    letter-spacing: 0.05rem;
-    font-size: 1rem;
+.about-products-section p {
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
     line-height: 1.3;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .allergen-free {
@@ -90,16 +95,6 @@ header {
     border-radius: 50%;
 }
 
-@media (min-width: 400px) {
-  .handcraft-section > div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5rem;
-  }
-  .handcraft-section p {
-    margin-bottom: 0;
-  }
-}
 
 @media (min-width: 670px) {
     .allergen-free ul {

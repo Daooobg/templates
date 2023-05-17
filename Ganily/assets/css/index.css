@@ -104,3 +104,47 @@ header {
         justify-content: space-between;
     }
 }
+
+.top-products__section {
+    background-color: rgb(238, 242, 243);
+}
+
+.top-products__section h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.top-products__container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.top-products__slideshow {
+    display: flex;
+    justify-content: space-between;
+    gap: 3%;
+    position: relative;
+    width: 330%;
+    animation: slideshow 40s infinite;
+}
+
+.top-products__card {
+    width: 28%;
+}
+
+@keyframes slideshow {
+    0% {left: 0}
+    10% {left: -34%}
+    20% {left: -68%}
+    30% {left: -102%}
+    40% {left: -138%}
+    50% {left: -172%}
+    60% {left: -206%}
+    70% {left: -240%}
+    90% {left: 0}
+
+}

@@ -163,17 +163,16 @@ footer > div {
     align-items: center;
 }
 
-footer p, 
-footer span {
-    font-size: 1rem;
+footer p {
+    font-size: 2rem;
     font-weight: 700;
     letter-spacing: 0.05rem;
 }
 
-footer > div > div > *:not(:last-child) {
+footer a:not(:last-child) {
     margin-right: 1rem;
 }
 
 footer i {
-    color: aliceblue;
+    color: rgb(238, 242, 243);
 }

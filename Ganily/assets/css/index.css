@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;600;700&display=swap');
-
+@import url('/font-awesome-6.4.0/css/font-awesome.min.css');
 header {
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
@@ -147,4 +147,33 @@ header {
     70% {left: -240%}
     90% {left: 0}
 
+}
+
+footer {
+    background-color: black;
+    color: rgb(238, 242, 243);
+}
+
+footer > div {
+    width: 90%;
+    height: 10vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p, 
+footer span {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+}
+
+footer > div > div > *:not(:last-child) {
+    margin-right: 1rem;
+}
+
+footer i {
+    color: aliceblue;
 }

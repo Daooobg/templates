@@ -57,12 +57,12 @@ header {
   font-family: Roboto Slab, serif;
 }
 .about-products-section ul {
-    padding-inline-start: 2rem;
+  padding-inline-start: 2rem;
 }
 .about-products-section img {
-    float: right;
-    width: 30%;
-    margin: 1rem;
+  float: right;
+  width: 30%;
+  margin: 1rem;
 }
 
 .about-products-section h2 {
@@ -73,106 +73,122 @@ header {
 }
 
 .about-products-section p {
-    letter-spacing: 0.1rem;
-    font-size: 2.5rem;
-    line-height: 1.3;
-    margin-bottom: 1rem;
+  letter-spacing: 0.1rem;
+  font-size: 2.5rem;
+  line-height: 1.3;
+  margin-bottom: 1rem;
 }
 
 .allergen-free {
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .allergen-free ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-    gap: 2rem;
-    padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 2rem;
+  padding: 0;
 }
 
 .allergen-free ul li {
-    padding: 1rem;
-    border: 0.5rem solid rgb(205, 125, 141);
-    border-radius: 50%;
+  padding: 1rem;
+  border: 0.5rem solid rgb(205, 125, 141);
+  border-radius: 50%;
 }
 
-
 @media (min-width: 670px) {
-    .allergen-free ul {
-        justify-content: space-between;
-    }
+  .allergen-free ul {
+    justify-content: space-between;
+  }
 }
 
 .top-products__section {
-    background-color: rgb(238, 242, 243);
+  background-color: rgb(238, 242, 243);
 }
 
 .top-products__section h2 {
-    font-size: 4rem;
-    font-weight: 700;
-    letter-spacing: 0.1rem;
-    padding: 2rem 0;
-    text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  padding: 2rem 0;
+  text-align: center;
 }
 
 .top-products__container {
-    width: 90%;
-    margin: 0 auto;
-    overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .top-products__slideshow {
-    display: flex;
-    justify-content: space-between;
-    gap: 3%;
-    position: relative;
-    width: 330%;
-    animation: slideshow 40s infinite;
+  display: flex;
+  justify-content: space-between;
+  gap: 3%;
+  position: relative;
+  width: 330%;
+  animation: slideshow 40s infinite;
 }
 
 .top-products__card {
-    width: 28%;
+  width: 28%;
 }
 
 @keyframes slideshow {
-    0% {left: 0}
-    10% {left: -34%}
-    20% {left: -68%}
-    30% {left: -102%}
-    40% {left: -138%}
-    50% {left: -172%}
-    60% {left: -206%}
-    70% {left: -240%}
-    90% {left: 0}
-
+  0% {
+    left: 0;
+  }
+  10% {
+    left: -34%;
+  }
+  20% {
+    left: -68%;
+  }
+  30% {
+    left: -102%;
+  }
+  40% {
+    left: -138%;
+  }
+  50% {
+    left: -172%;
+  }
+  60% {
+    left: -206%;
+  }
+  70% {
+    left: -240%;
+  }
+  90% {
+    left: 0;
+  }
 }
 
 footer {
-    background-color: black;
-    color: rgb(238, 242, 243);
+  background-color: black;
+  color: rgb(238, 242, 243);
 }
 
 footer > div {
-    width: 90%;
-    height: 10vh;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 90%;
+  height: 10vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer p {
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 0.05rem;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
 }
 
 footer a:not(:last-child) {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
 footer i {
-    color: rgb(238, 242, 243);
+  color: rgb(238, 242, 243);
 }
